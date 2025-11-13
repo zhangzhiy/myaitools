@@ -1,0 +1,138 @@
+{
+  "tools": [
+    {
+      "id": "ai-assistant",
+      "name": "AI助手",
+      "description": "智能对话助手，支持多轮对话和上下文理解",
+      "category": "ai-tools",
+      "tags": ["AI", "聊天", "智能"],
+      "url": "https://chat.openai.com",
+      "icon": "/icons/ai-assistant.svg",
+      "status": "active",
+      "createdAt": "2024-01-01",
+      "updatedAt": "2024-01-01"
+    },
+    {
+      "id": "code-generator",
+      "name": "代码生成器",
+      "description": "基于AI的代码自动生成工具，支持多种编程语言",
+      "category": "ai-tools",
+      "tags": ["AI", "代码", "开发"],
+      "url": "https://github.com/features/copilot",
+      "icon": "/icons/code-generator.svg",
+      "status": "active",
+      "createdAt": "2024-01-01",
+      "updatedAt": "2024-01-01"
+    },
+    {
+      "id": "image-generator",
+      "name": "图像生成器",
+      "description": "AI驱动的图像创作工具，支持文本到图像生成",
+      "category": "ai-tools",
+      "tags": ["AI", "图像", "创意"],
+      "url": "https://www.midjourney.com",
+      "icon": "/icons/image-generator.svg",
+      "status": "active",
+      "createdAt": "2024-01-01",
+      "updatedAt": "2024-01-01"
+    },
+    {
+      "id": "code-editor",
+      "name": "在线代码编辑器",
+      "description": "支持多种编程语言的在线代码编辑和运行环境",
+      "category": "dev-tools",
+      "tags": ["编辑器", "代码", "在线"],
+      "url": "https://codepen.io",
+      "icon": "/icons/code-editor.svg",
+      "status": "active",
+      "createdAt": "2024-01-01",
+      "updatedAt": "2024-01-01"
+    },
+    {
+      "id": "api-tester",
+      "name": "API测试工具",
+      "description": "RESTful API接口测试和调试工具",
+      "category": "dev-tools",
+      "tags": ["API", "测试", "调试"],
+      "url": "https://www.postman.com",
+      "icon": "/icons/api-tester.svg",
+      "status": "active",
+      "createdAt": "2024-01-01",
+      "updatedAt": "2024-01-01"
+    },
+    {
+      "id": "task-manager",
+      "name": "任务管理器",
+      "description": "高效的任务和项目管理工具，支持团队协作",
+      "category": "efficiency-tools",
+      "tags": ["任务", "管理", "协作"],
+      "url": "https://trello.com",
+      "icon": "/icons/task-manager.svg",
+      "status": "active",
+      "createdAt": "2024-01-01",
+      "updatedAt": "2024-01-01"
+    },
+    {
+      "id": "note-taking",
+      "name": "笔记工具",
+      "description": "支持Markdown的在线笔记和知识管理工具",
+      "category": "efficiency-tools",
+      "tags": ["笔记", "知识管理", "Markdown"],
+      "url": "https://notion.so",
+      "icon": "/icons/note-taking.svg",
+      "status": "active",
+      "createdAt": "2024-01-01",
+      "updatedAt": "2024-01-01"
+    },
+    {
+      "id": "design-tool",
+      "name": "在线设计工具",
+      "description": "强大的在线图形设计工具，支持原型和UI设计",
+      "category": "design-tools",
+      "tags": ["设计", "原型", "UI"],
+      "url": "https://www.figma.com",
+      "icon": "/icons/design-tool.svg",
+      "status": "active",
+      "createdAt": "2024-01-01",
+      "updatedAt": "2024-01-01"
+    },
+    {
+      "id": "color-picker",
+      "name": "配色工具",
+      "description": "专业的配色方案生成和管理工具",
+      "category": "design-tools",
+      "tags": ["配色", "颜色", "设计"],
+      "url": "https://coolors.co",
+      "icon": "/icons/color-picker.svg",
+      "status": "active",
+      "createdAt": "2024-01-01",
+      "updatedAt": "2024-01-01"
+    }
+  ],
+  "categories": [
+    {
+      "id": "ai-tools",
+      "name": "AI工具",
+      "description": "人工智能相关的工具和服务",
+      "icon": "/icons/category-ai.svg"
+    },
+    {
+      "id": "dev-tools",
+      "name": "开发工具",
+      "description": "软件开发和编程相关工具",
+      "icon": "/icons/category-dev.svg"
+    },
+    {
+      "id": "efficiency-tools",
+      "name": "效率工具",
+      "description": "提升工作和学习效率的工具",
+      "icon": "/icons/category-efficiency.svg"
+    },
+    {
+      "id": "design-tools",
+      "name": "设计工具",
+      "description": "设计和创意相关的工具",
+      "icon": "/icons/category-design.svg"
+    }
+  ]
+}
