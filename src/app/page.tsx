@@ -1,7 +1,11 @@
-import toolsConfig from '@/data/tools.json';
+import toolsConfigRaw from '@/data/tools.json';
+import { ToolsConfig } from '@/types';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import CategorySection from '@/components/CategorySection';
+
+// 类型断言
+const toolsConfig: ToolsConfig = toolsConfigRaw as ToolsConfig;
 
 export default function Home() {
   return (
