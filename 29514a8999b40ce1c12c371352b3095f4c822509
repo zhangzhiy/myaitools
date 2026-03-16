@@ -1,0 +1,29 @@
+src/views/business-report-detail/index.vue
+  ab1af3709ca29ccc 9,15-31,40-63,73,96-98,100-129,148-150,152-177,183-189,191-192,194-203,205-206,208-215,220-358,377,381-382,524-533,537-544,547,549-553,556-557,559-637,639-641,643,646-653,657,660-666,669-673,789-1228
+src/views/wechat-chat/index.vue
+  ab1af3709ca29ccc 11-12
+src/mock/business-report-detail.ts
+  ab1af3709ca29ccc 1-17,20-49,52-62,65,68-73,93-133,146-163,166-173,175-177,180-193,197-204,206-208,284-448
+src/views/phone-auth/index.vue
+  ab1af3709ca29ccc 9-12,57-65,207-223
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.11",
+  "base_commit_sha": "29514a8999b40ce1c12c371352b3095f4c822509",
+  "prompts": {
+    "ab1af3709ca29ccc": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "d21d7d4f-dcc6-444e-9088-1556bdd40e5b",
+        "model": "default"
+      },
+      "human_author": "zhiyang <zhangzhiyang@lizhang.com>",
+      "messages": [],
+      "total_additions": 1342,
+      "total_deletions": 193,
+      "accepted_lines": 1212,
+      "overriden_lines": 0
+    }
+  }
+}
