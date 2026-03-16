@@ -40,6 +40,18 @@ const routes: RouteRecordRaw[] = [
         component: () => import('@/views/settings/index.vue'),
         meta: { title: '系统设置', icon: 'Setting' },
       },
+      {
+        path: 'wechat-chat',
+        name: 'WechatChat',
+        component: () => import('@/views/wechat-chat/index.vue'),
+        meta: { title: '商机汇报群', icon: 'ChatDotRound' },
+      },
+      {
+        path: 'wechat-chat/:id',
+        name: 'WechatChatDetail',
+        component: () => import('@/views/wechat-chat/detail.vue'),
+        meta: { title: '商机汇报详情', hidden: true },
+      },
     ],
   },
   {
