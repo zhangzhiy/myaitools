@@ -8,8 +8,8 @@ function goBack() {
   router.back()
 }
 
-function viewDetail(msg: ChatReportMessage) {
-  router.push(`/wechat-chat/${msg.id}`)
+function viewDetail(_msg: ChatReportMessage) {
+  router.push('/phone-auth')
 }
 </script>
 

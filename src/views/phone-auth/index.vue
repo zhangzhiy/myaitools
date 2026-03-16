@@ -6,6 +6,10 @@ import { phoneAuthConfig } from '@/mock/phone-auth'
 
 const router = useRouter()
 
+function handleAllow() {
+  router.push('/business-report-detail')
+}
+
 function handleDisallow() {
   ElMessage.info('已拒绝授权')
   router.back()
@@ -49,6 +53,15 @@ function handleInfoClick() {
         <div class="phone-number">{{ phoneAuthConfig.maskedPhone }}</div>
         <div class="phone-label">{{ phoneAuthConfig.phoneLabel }}</div>
       </div>
+
+      <!-- 允许按钮：跳转新房商机汇报详情 -->
+      <button
+        type="button"
+        class="allow-btn"
+        @click="handleAllow"
+      >
+        允许
+      </button>
 
       <!-- 不允许按钮 -->
       <button
@@ -189,6 +202,23 @@ function handleInfoClick() {
   font-size: 12px;
   color: #999;
   margin-top: 6px;
+}
+
+.allow-btn {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+.allow-btn:hover {
+  opacity: 0.9;
 }
 
 .disallow-btn {

@@ -63,13 +63,13 @@ const routes: RouteRecordRaw[] = [
   {
     path: '/business-report-detail',
     component: () => import('@/layouts/BlankLayout.vue'),
-    meta: { title: '新房商机汇报详情' },
+    meta: { title: '预览商机汇报详情' },
     children: [
       {
         path: '',
         name: 'BusinessReportDetail',
         component: () => import('@/views/business-report-detail/index.vue'),
-        meta: { title: '新房商机汇报详情' },
+        meta: { title: '预览商机汇报详情' },
       },
     ],
   },
