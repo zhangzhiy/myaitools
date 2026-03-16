@@ -1,0 +1,25 @@
+package.json
+  cdd4c5a5f3f4ecb6 6-8
+.nvmrc
+  cdd4c5a5f3f4ecb6 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.11",
+  "base_commit_sha": "ca0271876d363121542f82e2c6020572697c3777",
+  "prompts": {
+    "cdd4c5a5f3f4ecb6": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "083575bc-95bc-4fa8-a45f-d793aac93d1c",
+        "model": "claude-4.6-opus-high-thinking"
+      },
+      "human_author": "zhiyang <zhangzhiyang@lizhang.com>",
+      "messages": [],
+      "total_additions": 4,
+      "total_deletions": 0,
+      "accepted_lines": 4,
+      "overriden_lines": 0
+    }
+  }
+}
