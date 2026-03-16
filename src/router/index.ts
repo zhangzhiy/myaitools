@@ -53,16 +53,23 @@ const routes: RouteRecordRaw[] = [
         meta: { title: '商机汇报详情', hidden: true },
       },
       {
-        path: 'business-report-detail',
-        name: 'BusinessReportDetail',
-        component: () => import('@/views/business-report-detail/index.vue'),
-        meta: { title: '新房商机汇报详情', icon: 'Document' },
-      },
-      {
         path: 'phone-auth',
         name: 'PhoneAuth',
         component: () => import('@/views/phone-auth/index.vue'),
         meta: { title: '手机号授权', icon: 'Iphone' },
+      },
+    ],
+  },
+  {
+    path: '/business-report-detail',
+    component: () => import('@/layouts/BlankLayout.vue'),
+    meta: { title: '新房商机汇报详情' },
+    children: [
+      {
+        path: '',
+        name: 'BusinessReportDetail',
+        component: () => import('@/views/business-report-detail/index.vue'),
+        meta: { title: '新房商机汇报详情' },
       },
     ],
   },
