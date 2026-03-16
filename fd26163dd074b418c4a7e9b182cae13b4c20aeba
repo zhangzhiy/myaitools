@@ -1,0 +1,35 @@
+src/layouts/DefaultLayout.vue
+  ab1af3709ca29ccc 12-13,30-31
+src/mock/business-report-detail.ts
+  ab1af3709ca29ccc 1-141
+src/views/phone-auth/index.vue
+  ab1af3709ca29ccc 1-226
+.gitignore
+  ab1af3709ca29ccc 22
+src/views/business-report-detail/index.vue
+  ab1af3709ca29ccc 1-447
+src/mock/phone-auth.ts
+  ab1af3709ca29ccc 1-21
+src/router/index.ts
+  ab1af3709ca29ccc 55-66
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.11",
+  "base_commit_sha": "fd26163dd074b418c4a7e9b182cae13b4c20aeba",
+  "prompts": {
+    "ab1af3709ca29ccc": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "d21d7d4f-dcc6-444e-9088-1556bdd40e5b",
+        "model": "default"
+      },
+      "human_author": "zhiyang <zhangzhiyang@lizhang.com>",
+      "messages": [],
+      "total_additions": 852,
+      "total_deletions": 0,
+      "accepted_lines": 852,
+      "overriden_lines": 0
+    }
+  }
+}
