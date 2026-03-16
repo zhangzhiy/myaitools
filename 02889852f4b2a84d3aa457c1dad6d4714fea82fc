@@ -1,0 +1,25 @@
+src/layouts/BlankLayout.vue
+  ab1af3709ca29ccc 1-9
+src/router/index.ts
+  ab1af3709ca29ccc 64-75
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.11",
+  "base_commit_sha": "02889852f4b2a84d3aa457c1dad6d4714fea82fc",
+  "prompts": {
+    "ab1af3709ca29ccc": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "d21d7d4f-dcc6-444e-9088-1556bdd40e5b",
+        "model": "default"
+      },
+      "human_author": "zhiyang <zhangzhiyang@lizhang.com>",
+      "messages": [],
+      "total_additions": 22,
+      "total_deletions": 8,
+      "accepted_lines": 22,
+      "overriden_lines": 0
+    }
+  }
+}
