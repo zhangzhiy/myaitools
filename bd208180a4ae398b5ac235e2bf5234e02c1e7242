@@ -1,0 +1,46 @@
+src/views/wechat-chat/detail.vue
+  ab1af3709ca29ccc 1-89
+src/mock/wechat-chat.ts
+  ab1af3709ca29ccc 1-35
+src/router/index.ts
+  ab1af3709ca29ccc 43-54
+src/views/wechat-chat/index.vue
+  ab1af3709ca29ccc 1-277
+.npmrc
+  cdd4c5a5f3f4ecb6 1
+src/layouts/DefaultLayout.vue
+  ab1af3709ca29ccc 11,27
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.11",
+  "base_commit_sha": "bd208180a4ae398b5ac235e2bf5234e02c1e7242",
+  "prompts": {
+    "ab1af3709ca29ccc": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "d21d7d4f-dcc6-444e-9088-1556bdd40e5b",
+        "model": "default"
+      },
+      "human_author": "zhiyang <zhangzhiyang@lizhang.com>",
+      "messages": [],
+      "total_additions": 445,
+      "total_deletions": 30,
+      "accepted_lines": 415,
+      "overriden_lines": 0
+    },
+    "cdd4c5a5f3f4ecb6": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "083575bc-95bc-4fa8-a45f-d793aac93d1c",
+        "model": "claude-4.6-opus-high-thinking"
+      },
+      "human_author": "zhiyang <zhangzhiyang@lizhang.com>",
+      "messages": [],
+      "total_additions": 2,
+      "total_deletions": 3,
+      "accepted_lines": 2,
+      "overriden_lines": 0
+    }
+  }
+}
