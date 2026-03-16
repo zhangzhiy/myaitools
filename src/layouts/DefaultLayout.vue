@@ -8,8 +8,6 @@ import {
   FolderOpened,
   User,
   Setting,
-  ChatDotRound,
-  Iphone,
   Expand,
   Fold,
   Bell,
@@ -25,8 +23,6 @@ const menuItems = [
   { index: '/dashboard', title: '工作台', icon: HomeFilled },
   { index: '/projects', title: '项目管理', icon: FolderOpened },
   { index: '/users', title: '用户管理', icon: User },
-  { index: '/wechat-chat', title: '商机汇报群', icon: ChatDotRound },
-  { index: '/phone-auth', title: '手机号授权', icon: Iphone },
   { index: '/settings', title: '系统设置', icon: Setting },
 ]
 

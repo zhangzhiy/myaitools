@@ -40,23 +40,37 @@ const routes: RouteRecordRaw[] = [
         component: () => import('@/views/settings/index.vue'),
         meta: { title: '系统设置', icon: 'Setting' },
       },
+    ],
+  },
+  {
+    path: '/wechat-chat',
+    component: () => import('@/layouts/BlankLayout.vue'),
+    meta: { title: '商机汇报群' },
+    children: [
       {
-        path: 'wechat-chat',
+        path: '',
         name: 'WechatChat',
         component: () => import('@/views/wechat-chat/index.vue'),
-        meta: { title: '商机汇报群', icon: 'ChatDotRound' },
+        meta: { title: '商机汇报群' },
       },
       {
-        path: 'wechat-chat/:id',
+        path: ':id',
         name: 'WechatChatDetail',
         component: () => import('@/views/wechat-chat/detail.vue'),
-        meta: { title: '商机汇报详情', hidden: true },
+        meta: { title: '商机汇报详情' },
       },
+    ],
+  },
+  {
+    path: '/phone-auth',
+    component: () => import('@/layouts/BlankLayout.vue'),
+    meta: { title: '手机号授权' },
+    children: [
       {
-        path: 'phone-auth',
+        path: '',
         name: 'PhoneAuth',
         component: () => import('@/views/phone-auth/index.vue'),
-        meta: { title: '手机号授权', icon: 'Iphone' },
+        meta: { title: '手机号授权' },
       },
     ],
   },
