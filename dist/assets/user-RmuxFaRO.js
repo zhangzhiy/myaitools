@@ -1,0 +1,1 @@
+import{ct as e}from"./runtime-core.esm-bundler-C4dC3jWE.js";import{D as t}from"./index-CbM_9Odw.js";var n=t(`user`,()=>{let t=e(!0),n=e({id:1,name:`张三`,avatar:``,role:`管理员`});function r(e){t.value=!0,n.value.name=e}function i(){t.value=!1}return{isLoggedIn:t,userInfo:n,login:r,logout:i}});export{n as t};
