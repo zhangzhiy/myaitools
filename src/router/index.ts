@@ -52,6 +52,18 @@ const routes: RouteRecordRaw[] = [
         component: () => import('@/views/wechat-chat/detail.vue'),
         meta: { title: '商机汇报详情', hidden: true },
       },
+      {
+        path: 'business-report-detail',
+        name: 'BusinessReportDetail',
+        component: () => import('@/views/business-report-detail/index.vue'),
+        meta: { title: '新房商机汇报详情', icon: 'Document' },
+      },
+      {
+        path: 'phone-auth',
+        name: 'PhoneAuth',
+        component: () => import('@/views/phone-auth/index.vue'),
+        meta: { title: '手机号授权', icon: 'Iphone' },
+      },
     ],
   },
   {
