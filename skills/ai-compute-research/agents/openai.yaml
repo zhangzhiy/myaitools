@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI 算力研究"
+  short_description: "生成并归档 AI 算力细分领域、公司研究和财报验证。"
+  default_prompt: "用 AI 算力研究 skill，围绕一个细分领域或公司生成投资研究内容，并保存到对应目录。"
