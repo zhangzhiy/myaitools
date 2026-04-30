@@ -1,0 +1,52 @@
+009AI算力/02_细分领域研究提示词.md
+  475a0bf9ea3eb340 5-6,30,34,101,123-124,148
+skills/ai-compute-research/references/sector-prompts.md
+  475a0bf9ea3eb340 1-151
+skills/ai-compute-research/references/company-prompts.md
+  475a0bf9ea3eb340 1-185
+.obsidian/graph.json
+  010bb1aba4cddaff 1-22
+.obsidian/workspace.json
+  010bb1aba4cddaff 7,11,16,21,97,107,116,121,159,165,186,188-203
+skills/ai-compute-research/agents/openai.yaml
+  475a0bf9ea3eb340 1-4
+009AI算力/03_公司研究提示词.md
+  010bb1aba4cddaff 5-6,64,114,126-127,149,159-160,182
+009AI算力/光模块/2026-04-30_中际旭创_公司研究.md
+  010bb1aba4cddaff 1-243
+skills/ai-compute-research/SKILL.md
+  010bb1aba4cddaff 1-95
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "e1b8cc8b308944bd79d14c6d9cd3c5c1abd938e2",
+  "prompts": {
+    "010bb1aba4cddaff": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ddc0e-9ee9-75f2-9ad9-1b8880e36caa",
+        "model": "gpt-5.5"
+      },
+      "human_author": "zhiyang",
+      "messages": [],
+      "total_additions": 397,
+      "total_deletions": 13,
+      "accepted_lines": 397,
+      "overriden_lines": 0
+    },
+    "475a0bf9ea3eb340": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ddc0b-933a-7fc2-806b-b23ee1a0836b",
+        "model": "gpt-5.5"
+      },
+      "human_author": "zhiyang",
+      "messages": [],
+      "total_additions": 433,
+      "total_deletions": 2,
+      "accepted_lines": 353,
+      "overriden_lines": 28
+    }
+  }
+}
